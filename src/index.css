@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-yellow: #D9A404;
+  --color-orange: #D97904;
+  --color-red-orange: #F25C05;
+  --color-red: #D93232;
+  --color-dark: #0D0D0D;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--color-dark);
+  color: white;
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, var(--color-yellow), var(--color-orange), var(--color-red-orange), var(--color-red));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradient 8s ease infinite;
+  background-size: 300% 300%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
