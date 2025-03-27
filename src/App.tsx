@@ -5,8 +5,8 @@ function App() {
   return (
     <div className="min-h-screen bg-dark font-roboto">
       {/* Hero Section */}
-      <header className="container mx-auto px-4 py-16 md:py-24">
-        <nav className="flex justify-between items-center mb-6">
+      <header className="container mx-auto px-2 py-16 md:py-24">
+        <nav className="flex justify-between items-center mb-16 h-5">
           <img src='/logo-new.png' alt="Logo" className="w-40" />
           {/* <Bot className="w-10 h-10 text-yellow" /> */}
           <div className="flex gap-4">
