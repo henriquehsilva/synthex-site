@@ -6,16 +6,17 @@ function App() {
     <div className="min-h-screen bg-dark font-roboto">
       {/* Hero Section */}
       <header className="container mx-auto px-4 py-16 md:py-24">
-        <nav className="flex justify-between items-center mb-16">
+        <nav className="flex justify-between items-center mb-6">
+          <img src='/logo-new.png' alt="Logo" className="w-40" />
           {/* <Bot className="w-10 h-10 text-yellow" /> */}
-          {/* <div className="flex gap-4">
+          <div className="flex gap-4">
             <a href="https://github.com/henriquesilvadev" target="_blank" rel="noopener noreferrer">
               <Github className="w-6 h-6 text-white hover:text-yellow transition-colors" />
             </a>
             <a href="https://linkedin.com/in/henriquesilvadev" target="_blank" rel="noopener noreferrer">
               <Linkedin className="w-6 h-6 text-white hover:text-yellow transition-colors" />
             </a>
-          </div> */}
+          </div>
         </nav>
         
         <div className="relative overflow-hidden">
