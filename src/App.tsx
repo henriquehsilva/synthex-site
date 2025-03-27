@@ -7,16 +7,20 @@ function App() {
       {/* Hero Section */}
       <header className="container mx-auto px-2 py-16 md:py-24">
         <nav className="flex justify-between items-center mb-16 h-5">
-          <img src='/logo.png' alt="Logo" className="w-42" />
+          {/* <img src='/logo.png' alt="Logo" className="w-42" /> */}
           {/* <Bot className="w-10 h-10 text-yellow" /> */}
-          {/* <div className="flex gap-4">
+          <div className='flex gap-1'>
+            <Bot className="w-10 h-10 text-yellow" />
+            <h1 className="text-1xl font-bold text-white">Oi, Bora conversar !</h1>
+          </div>
+          <div className="flex gap-4">
             <a href="https://github.com/henriquesilvadev" target="_blank" rel="noopener noreferrer">
               <Github className="w-6 h-6 text-white hover:text-yellow transition-colors" />
             </a>
             <a href="https://linkedin.com/in/henriquesilvadev" target="_blank" rel="noopener noreferrer">
               <Linkedin className="w-6 h-6 text-white hover:text-yellow transition-colors" />
             </a>
-          </div> */}
+          </div>
         </nav>
         
         <div className="relative overflow-hidden">
