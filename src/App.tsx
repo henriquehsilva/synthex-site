@@ -115,9 +115,9 @@ function App() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-400">© 2025 Henrique Silva. All rights reserved.</p>
           <div className="flex gap-4">
-            <a href="https://henriquesilva.dev" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-yellow transition-colors">
+            {/* <a href="https://henriquesilva.dev" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-yellow transition-colors">
               https://bio.henriquesilva.dev
-            </a>
+            </a> */}
             {/* <a href="https://github.com/henriquesilvadev" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-yellow transition-colors">
               GitHub
             </a>
