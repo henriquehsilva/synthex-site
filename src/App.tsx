@@ -13,14 +13,14 @@ function App() {
             <Bot className="w-10 h-10 text-yellow" />
             <h1 className="text-1xl font-bold text-white">Oi, Bora conversar !</h1>
           </div>
-          <div className="flex gap-4">
+          {/* <div className="flex gap-4">
             <a href="https://github.com/henriquesilvadev" target="_blank" rel="noopener noreferrer">
               <Github className="w-6 h-6 text-white hover:text-yellow transition-colors" />
             </a>
             <a href="https://linkedin.com/in/henriquesilvadev" target="_blank" rel="noopener noreferrer">
               <Linkedin className="w-6 h-6 text-white hover:text-yellow transition-colors" />
             </a>
-          </div>
+          </div> */}
         </nav>
         
         <div className="relative overflow-hidden">
@@ -116,14 +116,14 @@ function App() {
           <p className="text-gray-400">© 2025 Henrique Silva. All rights reserved.</p>
           <div className="flex gap-4">
             <a href="https://henriquesilva.dev" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-yellow transition-colors">
-              Bio
+              https://bio.henriquesilva.dev
             </a>
-            <a href="https://github.com/henriquesilvadev" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-yellow transition-colors">
+            {/* <a href="https://github.com/henriquesilvadev" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-yellow transition-colors">
               GitHub
             </a>
             <a href="https://linkedin.com/in/henriquesilvadev" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-yellow transition-colors">
               LinkedIn
-            </a>
+            </a> */}
           </div>
         </div>
       </footer>
